@@ -1,0 +1,4 @@
+> temperature-anomaly.csv
+>> contents: median anual temperature in degrees cels (1850-2019) Global/Hemisphere/Tropics
+   (the csv header says that this is the median, although the website says that is the average?)
+>> source: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
