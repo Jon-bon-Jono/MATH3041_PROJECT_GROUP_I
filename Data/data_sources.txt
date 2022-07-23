@@ -2,3 +2,18 @@
 >> contents: median anual temperature in degrees cels (1850-2019) Global/Hemisphere/Tropics
    (the csv header says that this is the median, although the website says that is the average?)
 >> source: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
+
+> nasa_land-ocean_temp_index.txt
+>> contents: temp deviation from 1850 for years 1880-2021, just add 14.15 to values in 2nd column to
+   get actual temp
+>> source: https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt
+    used in yt lecture: https://www.youtube.com/watch?v=Gi4ZZVS2GLA&t=567s
+
+> NOAA_MoleFractions_2022.csv
+>> contents: measured global annual concentration of greenhouse gasses 1979-2022
+>> source: https://gml.noaa.gov/aggi/NOAA_MoleFractions_2022.csv
+ 		reference in this article: https://gml.noaa.gov/aggi/aggi.html
+
+> ice_core_2006.txt
+>> contents last CO2, CH4, N2O annual concentration years 1-2004
+>> source: https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/law/law2006.txt
