@@ -4,27 +4,28 @@ For each of the sources we need to know:
 > How the data was gathered/measured/estimated
 > How accurate/reputable the data is
 
-> nasa_land-ocean_temp_index.txt
+> File: nasa_land-ocean_temp_index.txt
 >> contents: The second solumn is the annual deviation from the preindustrial (1850) temperature of 14 degrees celcius (could you also find a reference for this value). 
->>Use: In the code I added 14 to all of these values to get the annual temperature, this was used to compare to the simulated temperature and validate the model
->> source: https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt
+>> Use: In the code I added 14 to all of these values to get the annual temperature, this was used to compare to the simulated temperature and validate the model
+>> Source: https://data.giss.nasa.gov/gistemp/graphs/graph_data/Global_Mean_Estimates_based_on_Land_and_Ocean_Data/graph.txt
     (this dataset was used in the youtube lecture: https://www.youtube.com/watch?v=Gi4ZZVS2GLA&t=567s)
 
 
-> ice_core_2006.txt
+> File: ice_core_2006.txt
 >> contents: Annual concentration of CO2 (ppm) [column "CO2spl"], CH4 (ppb) [column "CH4spl"] and N2O (ppb) [column "N2Ospl"] for years 1-2004
 >> Use: used to calculate the radiative forcing for each of the greenhouse gasses in the model. 
->> source: https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/law/law2006.txt
+>> Source: https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/law/law2006.txt
     (they give some explanation in the txt file)
 
-> NOAA_MoleFractions_2022.csv
+> File: NOAA_MoleFractions_2022.csv
 >> contents: Annual concentration of greenhouse gasses 1979-2022
 >> Use: concatinated years 2005-2022 to the end of the ice_core_2006.txt dataset
->> source: https://gml.noaa.gov/aggi/NOAA_MoleFractions_2022.csv
+>> Source: https://gml.noaa.gov/aggi/NOAA_MoleFractions_2022.csv
  		(it was originally referenced in this article: https://gml.noaa.gov/aggi/aggi.html)
 
 
-> temperature-anomaly.csv (not used in the model, don't worry about this)
->> contents: median anual temperature in degrees cels (1850-2019) Global/Hemisphere/Tropics
-   (the csv header says that this is the median, although the website says that is the average?)
->> source: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
+> File: temperature-anomaly.csv (not used in the model, don't worry about this)
+>> Contents: median anual temperature in degrees cels (1850-2019) Global/Hemisphere/Tropics
+(the csv header says that this is the median, although the website says that is the average?)
+>> Use: not used
+>> Source: https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions
